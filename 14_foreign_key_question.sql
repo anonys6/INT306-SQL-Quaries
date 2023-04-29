@@ -29,6 +29,8 @@ where s_id < 5;
 
 select * from detailsView;
 
+-- deleted working branch
+
 create view studentNamesView as select s_id, name
 from studentDetails
 order by name;
