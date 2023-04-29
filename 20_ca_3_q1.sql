@@ -56,3 +56,5 @@ where company_name = 'ICICI';
 
 delete from works
 where company_name = 'ICICI';
+
+select * from works;
