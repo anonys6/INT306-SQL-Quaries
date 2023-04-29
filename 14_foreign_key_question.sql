@@ -29,6 +29,7 @@ where s_id < 5;
 
 select * from detailsView;
 
+
 create view studentNamesView as select s_id, name
 from studentDetails
 order by name;
