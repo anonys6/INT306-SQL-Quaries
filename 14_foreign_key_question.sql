@@ -23,6 +23,7 @@ insert into studentMarks values(3, 'Pratik', 80, 19);
 insert into studentMarks values(4, 'Dhanraj', 95, 21);
 insert into studentMarks values(5, 'Ram', 85, 18);
 
+
 create view DetailsView as select name, address
 from studentDetails
 where s_id < 5;
