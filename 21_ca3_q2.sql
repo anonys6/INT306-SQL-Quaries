@@ -6,7 +6,6 @@ create table employee2 (
   job varchar(10),
   salary int
 );
-
 insert into employee2 values (1, 'rahul', 11, 'cse', 'faculty', 60000);
 insert into employee2 values (2, 'rohit', 12, 'ece', 'faculty', 50000);
 insert into employee2 values (3, 'sam', 11, 'cse', 'faculty', 55000);
